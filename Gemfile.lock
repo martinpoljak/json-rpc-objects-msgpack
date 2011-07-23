@@ -1,0 +1,28 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    abstract (1.0.0)
+    addressable (2.2.6)
+    git (1.2.5)
+    hash-utils (0.18.0)
+    jeweler (1.6.4)
+      bundler (~> 1.0)
+      git (>= 1.2.5)
+      rake
+    json-rpc-objects (0.4.2)
+      abstract (>= 1.0.0)
+      addressable (>= 2.2.2)
+      hash-utils (>= 0.18.0)
+      multi_json
+    msgpack (0.4.5)
+    multi_json (1.0.3)
+    rake (0.9.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (>= 1.0.0)
+  jeweler (>= 1.5.2)
+  json-rpc-objects (>= 0.4.0)
+  msgpack
