@@ -1,5 +1,5 @@
-JSON-RPC Objects BSON Serializer
-================================
+JSON-RPC Objects MessagePack Serializer
+=======================================
 
 **JSON-RPC Objects** are implementation of by [JSON-RPC][1] defined 
 objects with respect to specifications compliance and API backward 
@@ -7,7 +7,7 @@ compatibility. It implements all versions of the protocol and support
 for ability to communicate by the same protocol version which the 
 other side uses by a transparent way.
 
-This is [BSON][11] serializing support for this library. 
+This is [MessagePack][11] serializing support for this library. 
 See [JSON-RPC Objects][2].
 
 
@@ -30,6 +30,6 @@ further details.
 
 [1]: http://en.wikipedia.org/wiki/JSON-RPC
 [2]: https://github.com/martinkozak/json-rpc-objects
-[6]: http://github.com/martinkozak/json-rpc-objects-bson/issues
+[6]: http://github.com/martinkozak/json-rpc-objects-msgpack/issues
 [7]: http://www.martinkozak.net/
-[11]: http://bsonspec.org/
+[11]: http://msgpack.org/
